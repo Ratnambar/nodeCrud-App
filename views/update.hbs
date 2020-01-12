@@ -1,0 +1,17 @@
+<html>
+
+<head>
+	<title>Insert Page</title>
+</head>
+<body>
+	<form method="post" action="/update" autocomplete="off">
+		<input type="hidden" name="id" value="{{user._id}}">
+		Name:<input type="text" name="name"  value="{{user.name}}"><br>
+		Age:<input type="text" name="age" value="{{user.age}}"><br>
+		City:<input type="text" name="city" value="{{user.city}}"><br>
+		Company:<input type="text" name="company" value="{{user.company}}"><br>
+		<input type="submit" name="submit" class="btn">
+
+	</form>
+</body>
+</html>
